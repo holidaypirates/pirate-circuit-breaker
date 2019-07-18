@@ -1,12 +1,11 @@
 # pirate-circuit-breaker
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f6ff3265503746ab824e9e2df84570f6)](https://app.codacy.com/app/ricardofiorani/pirate-circuit-breaker?utm_source=github.com&utm_medium=referral&utm_content=holidaypirates/pirate-circuit-breaker&utm_campaign=Badge_Grade_Dashboard)
-
+[![Quality Score][ico-code-quality]][link-code-quality]
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 This is an Implementation of the 2-state (Open and Closed) CircuitBreaker pattern that we use at HolidayPirates.  
