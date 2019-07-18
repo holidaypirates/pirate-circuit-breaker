@@ -1,0 +1,12 @@
+version: '3'
+services:
+  php:
+    build: docker/php
+    volumes:
+      - .:/code
+    working_dir: "/code"
+    links:
+      - redis
+
+  redis:
+    image: redis:5.0.4-alpine
